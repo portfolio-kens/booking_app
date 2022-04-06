@@ -1,4 +1,4 @@
-# Practic Laravel
+# booking_app
 
 ## Download
 
