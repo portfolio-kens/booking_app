@@ -16,40 +16,40 @@ Download with zipfile
 
 ## Install
 
-cd booking_app
-composer install
-npm install
-npm run dev
+cd booking_app  
+composer install  
+npm install  
+npm run dev  
 
-Copy .env.example and then make .env file
+Copy .env.example and then make .env file  
 
-Adjust following parts at .env file with your environment
+Adjust following parts at .env file with your environment  
 
-DB_CONNECTION=mysql
-DB_HOST=mysql
-DB_PORT=3306
-DB_DATABASE=booking
-DB_USERNAME=user
-DB_PASSWORD=password
+DB_CONNECTION=mysql  
+DB_HOST=mysql  
+DB_PORT=3306  
+DB_DATABASE=booking  
+DB_USERNAME=user  
+DB_PASSWORD=password  
 
-In this case,you can use Docker.
-After running Docker, exectute following command.
+In this case,you can use Docker.  
+After running Docker, exectute following command.  
 
-alias sail="./vendor/bin/sail"
+alias sail="./vendor/bin/sail"  
 
-sail artisan migrate:fresh --seed
+sail artisan migrate:fresh --seed  
 
-If it makes DBtable and dummy data, it is successful.
+If it makes DBtable and dummy data, it is successful.  
 
-Lastly
+Lastly  
 
-execute following command to make key and launch server
+Execute following command to make key and launch server  
 
-sail artisan key:generate
+sail artisan key:generate  
 
-sail artisan serve
+sail artisan serve  
 
-Then you can check display.
+Then you can check display.  
 
 
 
