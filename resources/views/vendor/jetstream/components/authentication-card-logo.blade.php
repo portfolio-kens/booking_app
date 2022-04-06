@@ -5,4 +5,4 @@
     </svg>
 </a> --}}
 
-<img src="{{ asset("images/logo.png") }}">
+{{-- <img src="{{ asset("images/IMG_0416.jpeg") }}"> --}}
